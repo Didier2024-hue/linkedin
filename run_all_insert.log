@@ -1,0 +1,354 @@
+Lancement du scrapping cde_scrap_new.py
+Lancement de cde_insert_wiki.py
+python3: can't open file '/home/datascientest/cde/python3': [Errno 2] No such file or directory
+Lancement de insert_postgre.py
+Lancement de cde_insert_wiki.py
+[2025-08-13 19:30:36] === DÉBUT IMPORTATION ===
+[2025-08-13 19:30:36] Début traitement temu...
+[2025-08-13 19:30:36] Création table wiki_temu...
+[2025-08-13 19:30:36] Structure créée avec 10 colonnes
+[2025-08-13 19:30:36] Données chargées: 1 enregistrement(s)
+[2025-08-13 19:30:36] SUCCÈS: Table wiki_temu prête
+[2025-08-13 19:30:36] --------------------------------------------------
+[2025-08-13 19:30:36] Début traitement tesla...
+[2025-08-13 19:30:36] Création table wiki_tesla...
+[2025-08-13 19:30:36] Structure créée avec 40 colonnes
+[2025-08-13 19:30:36] Données chargées: 1 enregistrement(s)
+[2025-08-13 19:30:36] SUCCÈS: Table wiki_tesla prête
+[2025-08-13 19:30:36] --------------------------------------------------
+[2025-08-13 19:30:36] Début traitement chronopost...
+[2025-08-13 19:30:36] Création table wiki_chronopost...
+[2025-08-13 19:30:36] Structure créée avec 36 colonnes
+[2025-08-13 19:30:36] Données chargées: 1 enregistrement(s)
+[2025-08-13 19:30:36] SUCCÈS: Table wiki_chronopost prête
+[2025-08-13 19:30:36] --------------------------------------------------
+[2025-08-13 19:30:36] Début traitement vinted...
+[2025-08-13 19:30:36] Création table wiki_vinted...
+[2025-08-13 19:30:36] Structure créée avec 46 colonnes
+[2025-08-13 19:30:36] Données chargées: 1 enregistrement(s)
+[2025-08-13 19:30:36] SUCCÈS: Table wiki_vinted prête
+[2025-08-13 19:30:36] --------------------------------------------------
+[2025-08-13 19:30:36] ✅ SUCCÈS COMPLET: 4/4 tables chargées
+
+Opération terminée avec succès
+Lancement de insert_postgre.py
+⚡ Début importation données TrustPilot
+🗑️ Tables vidées (avis_trustpilot et societe)
+
+🔍 Traitement temu (ID: 135)
+📊 Commentaires totaux: 3545
+   📂 scrap_temu_20250813_185133: 545 avis chargés
+   📂 scrap_temu_20250813_183706: 600 avis chargés
+   📂 scrap_temu_20250813_183005: 600 avis chargés
+   📂 scrap_temu_20250813_182301: 600 avis chargés
+   📂 scrap_temu_20250813_181559: 600 avis chargés
+   📂 scrap_temu_20250813_180858: 600 avis chargés
+✅ temu: 3545 avis importés au total
+
+
+🔍 Traitement tesla (ID: 136)
+📊 Commentaires totaux: 217
+   📂 scrap_tesla_20250813_140030: 217 avis chargés
+✅ tesla: 217 avis importés au total
+
+
+🔍 Traitement chronopost (ID: 137)
+📊 Commentaires totaux: 32220
+   📂 scrap_chronopost_20250812_010645: 600 avis chargés
+   📂 scrap_chronopost_20250812_194432: 600 avis chargés
+   📂 scrap_chronopost_20250812_193729: 600 avis chargés
+   📂 scrap_chronopost_20250812_190631: 600 avis chargés
+   📂 scrap_chronopost_20250812_185927: 600 avis chargés
+   📂 scrap_chronopost_20250812_185223: 600 avis chargés
+   📂 scrap_chronopost_20250812_184518: 600 avis chargés
+   📂 scrap_chronopost_20250812_183812: 600 avis chargés
+   📂 scrap_chronopost_20250812_180757: 600 avis chargés
+   📂 scrap_chronopost_20250812_180053: 600 avis chargés
+   📂 scrap_chronopost_20250812_175349: 600 avis chargés
+   📂 scrap_chronopost_20250812_174644: 600 avis chargés
+   📂 scrap_chronopost_20250812_173943: 600 avis chargés
+   📂 scrap_chronopost_20250812_173240: 600 avis chargés
+   📂 scrap_chronopost_20250812_172534: 600 avis chargés
+   📂 scrap_chronopost_20250812_171831: 600 avis chargés
+   📂 scrap_chronopost_20250812_171127: 600 avis chargés
+   📂 scrap_chronopost_20250812_165115: 600 avis chargés
+   📂 scrap_chronopost_20250812_152549: 600 avis chargés
+   📂 scrap_chronopost_20250812_140520: 600 avis chargés
+   📂 scrap_chronopost_20250812_135815: 600 avis chargés
+   📂 scrap_chronopost_20250812_135112: 600 avis chargés
+   📂 scrap_chronopost_20250812_134410: 600 avis chargés
+   📂 scrap_chronopost_20250812_133706: 600 avis chargés
+   📂 scrap_chronopost_20250812_124439: 600 avis chargés
+   📂 scrap_chronopost_20250812_123737: 600 avis chargés
+   📂 scrap_chronopost_20250812_123004: 600 avis chargés
+   📂 scrap_chronopost_20250812_122256: 600 avis chargés
+   📂 scrap_chronopost_20250812_121554: 600 avis chargés
+   📂 scrap_chronopost_20250812_120848: 600 avis chargés
+   📂 scrap_chronopost_20250812_120145: 600 avis chargés
+   📂 scrap_chronopost_20250812_115443: 600 avis chargés
+   📂 scrap_chronopost_20250812_114739: 600 avis chargés
+   📂 scrap_chronopost_20250812_113439: 600 avis chargés
+   📂 scrap_chronopost_20250812_111751: 600 avis chargés
+   📂 scrap_chronopost_20250812_110144: 600 avis chargés
+   📂 scrap_chronopost_20250812_104429: 600 avis chargés
+   📂 scrap_chronopost_20250812_103648: 600 avis chargés
+   📂 scrap_chronopost_20250812_103105: 600 avis chargés
+   📂 scrap_chronopost_20250812_102641: 600 avis chargés
+   📂 scrap_chronopost_20250812_102212: 600 avis chargés
+   📂 scrap_chronopost_20250812_101753: 600 avis chargés
+   📂 scrap_chronopost_20250812_101313: 600 avis chargés
+   📂 scrap_chronopost_20250812_100850: 600 avis chargés
+   📂 scrap_chronopost_20250812_100307: 600 avis chargés
+   📂 scrap_chronopost_20250812_095651: 600 avis chargés
+   📂 scrap_chronopost_20250812_094759: 600 avis chargés
+   📂 scrap_chronopost_20250812_011135: 20 avis chargés
+   📂 scrap_chronopost_20250612_201946: 200 avis chargés
+   📂 scrap_chronopost_20250717_002405: 200 avis chargés
+   📂 scrap_chronopost_20250717_002559: 200 avis chargés
+   📂 scrap_chronopost_20250717_002009: 200 avis chargés
+   📂 scrap_chronopost_20250717_002736: 200 avis chargés
+   📂 scrap_chronopost_20250717_001426: 200 avis chargés
+   📂 scrap_chronopost_20250717_001832: 200 avis chargés
+   📂 scrap_chronopost_20250717_001624: 200 avis chargés
+   📂 scrap_chronopost_20250717_000932: 200 avis chargés
+   📂 scrap_chronopost_20250717_001157: 200 avis chargés
+   📂 scrap_chronopost_20250717_000506: 200 avis chargés
+   📂 scrap_chronopost_20250717_000319: 200 avis chargés
+   📂 scrap_chronopost_20250716_235944: 200 avis chargés
+   📂 scrap_chronopost_20250625_133223: 200 avis chargés
+   📂 scrap_chronopost_20250705_170736: 200 avis chargés
+   📂 scrap_chronopost_20250705_165936: 200 avis chargés
+   📂 scrap_chronopost_20250624_141600: 200 avis chargés
+   📂 scrap_chronopost_20250625_131104: 200 avis chargés
+   📂 scrap_chronopost_20250624_142334: 200 avis chargés
+   📂 scrap_chronopost_20250624_140239: 200 avis chargés
+✅ chronopost: 32220 avis importés au total
+
+
+🔍 Traitement vinted (ID: 138)
+📊 Commentaires totaux: 30882
+   📂 scrap_vinted_20250812_193951: 82 avis chargés
+   📂 scrap_vinted_20250812_193610: 600 avis chargés
+   📂 scrap_vinted_20250812_190517: 600 avis chargés
+   📂 scrap_vinted_20250812_185815: 600 avis chargés
+   📂 scrap_vinted_20250812_185116: 600 avis chargés
+   📂 scrap_vinted_20250812_184417: 600 avis chargés
+   📂 scrap_vinted_20250812_183716: 600 avis chargés
+   📂 scrap_vinted_20250812_180630: 600 avis chargés
+   📂 scrap_vinted_20250812_175928: 600 avis chargés
+   📂 scrap_vinted_20250812_175228: 600 avis chargés
+   📂 scrap_vinted_20250812_174528: 600 avis chargés
+   📂 scrap_vinted_20250812_173828: 600 avis chargés
+   📂 scrap_vinted_20250812_173124: 600 avis chargés
+   📂 scrap_vinted_20250812_172423: 600 avis chargés
+   📂 scrap_vinted_20250812_171722: 600 avis chargés
+   📂 scrap_vinted_20250812_171020: 600 avis chargés
+   📂 scrap_vinted_20250812_165011: 600 avis chargés
+   📂 scrap_vinted_20250812_152517: 600 avis chargés
+   📂 scrap_vinted_20250812_140450: 600 avis chargés
+   📂 scrap_vinted_20250812_135751: 600 avis chargés
+   📂 scrap_vinted_20250812_135051: 600 avis chargés
+   📂 scrap_vinted_20250812_134350: 600 avis chargés
+   📂 scrap_vinted_20250812_133649: 600 avis chargés
+   📂 scrap_vinted_20250812_124424: 600 avis chargés
+   📂 scrap_vinted_20250812_123725: 600 avis chargés
+   📂 scrap_vinted_20250812_122955: 600 avis chargés
+   📂 scrap_vinted_20250812_122255: 600 avis chargés
+   📂 scrap_vinted_20250812_121553: 600 avis chargés
+   📂 scrap_vinted_20250812_120850: 600 avis chargés
+   📂 scrap_vinted_20250812_120147: 600 avis chargés
+   📂 scrap_vinted_20250812_115445: 600 avis chargés
+   📂 scrap_vinted_20250812_114745: 600 avis chargés
+   📂 scrap_vinted_20250812_113445: 600 avis chargés
+   📂 scrap_vinted_20250812_111800: 600 avis chargés
+   📂 scrap_vinted_20250812_110157: 600 avis chargés
+   📂 scrap_vinted_20250812_104430: 600 avis chargés
+   📂 scrap_vinted_20250812_103654: 600 avis chargés
+   📂 scrap_vinted_20250812_103118: 600 avis chargés
+   📂 scrap_vinted_20250812_102650: 600 avis chargés
+   📂 scrap_vinted_20250812_102146: 600 avis chargés
+   📂 scrap_vinted_20250812_101703: 600 avis chargés
+   📂 scrap_vinted_20250812_101226: 600 avis chargés
+   📂 scrap_vinted_20250812_100743: 600 avis chargés
+   📂 scrap_vinted_20250812_100317: 600 avis chargés
+   📂 scrap_vinted_20250812_095634: 600 avis chargés
+   📂 scrap_vinted_20250717_011854: 200 avis chargés
+   📂 scrap_vinted_20250717_011722: 200 avis chargés
+   📂 scrap_vinted_20250717_011546: 200 avis chargés
+   📂 scrap_vinted_20250717_010335: 200 avis chargés
+   📂 scrap_vinted_20250717_010147: 200 avis chargés
+   📂 scrap_vinted_20250717_005439: 200 avis chargés
+   📂 scrap_vinted_20250717_005749: 200 avis chargés
+   📂 scrap_vinted_20250717_005057: 200 avis chargés
+   📂 scrap_vinted_20250705_173939: 200 avis chargés
+   📂 scrap_vinted_20250705_173543: 200 avis chargés
+   📂 scrap_vinted_20250705_173825: 200 avis chargés
+   📂 scrap_vinted_20250705_173359: 200 avis chargés
+   📂 scrap_vinted_20250705_173022: 200 avis chargés
+   📂 scrap_vinted_20250705_172519: 200 avis chargés
+   📂 scrap_vinted_20250705_171934: 200 avis chargés
+   📂 scrap_vinted_20250705_172136: 200 avis chargés
+   📂 scrap_vinted_20250705_171455: 200 avis chargés
+   📂 scrap_vinted_20250705_171757: 200 avis chargés
+   📂 scrap_vinted_20250624_141449: 200 avis chargés
+   📂 scrap_vinted_20250624_142243: 200 avis chargés
+   📂 scrap_vinted_20250624_140415: 200 avis chargés
+   📂 scrap_vinted_20250612_202032: 200 avis chargés
+✅ vinted: 30882 avis importés au total
+
+🏁 Import terminé avec succès | Total avis: 66864
+Lancement de insert_mongodb.py
+[2025-08-13 19:31:09] SUCCESS - Connecté à MongoDB | Base: trustpilot
+[2025-08-13 19:31:10] INFO - Collections vidées avec succès avant import
+[2025-08-13 19:31:10] INFO - Traitement de /home/datascientest/cde/data/trustpilot/temu/scrap_temu_20250813_185133/temu_informations_generales_20250813_185133.txt
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_180858
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_181559
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_182301
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_183005
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_183706
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_temu_20250813_185133
+[2025-08-13 19:31:10] SUCCESS - Société traitée: temu (Avis importés: 3545, Répertoires traités: 6)
+[2025-08-13 19:31:10] INFO - Traitement de /home/datascientest/cde/data/trustpilot/tesla/scrap_tesla_20250813_140030/tesla_informations_generales_20250813_140030.txt
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_tesla_20250813_140030
+[2025-08-13 19:31:10] SUCCESS - Société traitée: tesla (Avis importés: 217, Répertoires traités: 1)
+[2025-08-13 19:31:10] INFO - Traitement de /home/datascientest/cde/data/trustpilot/chronopost/scrap_chronopost_20250812_194432/chronopost_informations_generales_20250812_194432.txt
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250612_201946
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250624_140239
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250624_141600
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250624_142334
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250625_131104
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250625_133223
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250705_165936
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250705_170736
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250716_235944
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_000319
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_000506
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_000932
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_001157
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_001426
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_001624
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_001832
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_002009
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_002405
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_002559
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250717_002736
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_010645
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_011135
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_094759
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_095651
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_100307
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_100850
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_101313
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_101753
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_102212
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_102641
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_103105
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_103648
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_104429
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_110144
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_111751
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_113439
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_114739
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_115443
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_120145
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_120848
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_121554
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_122256
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_123004
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_123737
+[2025-08-13 19:31:10] INFO - Lecture dossier: scrap_chronopost_20250812_124439
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_133706
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_134410
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_135112
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_135815
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_140520
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_152549
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_165115
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_171127
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_171831
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_172534
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_173240
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_173943
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_174644
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_175349
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_180053
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_180757
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_183812
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_184518
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_185223
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_185927
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_190631
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_193729
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_chronopost_20250812_194432
+[2025-08-13 19:31:11] SUCCESS - Société traitée: chronopost (Avis importés: 32220, Répertoires traités: 68)
+[2025-08-13 19:31:11] INFO - Traitement de /home/datascientest/cde/data/trustpilot/vinted/scrap_vinted_20250812_193951/vinted_informations_generales_20250812_193951.txt
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250612_202032
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250624_140415
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250624_141449
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250624_142243
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_171455
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_171757
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_171934
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_172136
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_172519
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_173022
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_173359
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_173543
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_173825
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250705_173939
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_005057
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_005439
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_005749
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_010147
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_010335
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_011546
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_011722
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250717_011854
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_095634
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_100317
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_100743
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_101226
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_101703
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_102146
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_102650
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_103118
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_103654
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_104430
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_110157
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_111800
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_113445
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_114745
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_115445
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_120147
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_120850
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_121553
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_122255
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_122955
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_123725
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_124424
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_133649
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_134350
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_135051
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_135751
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_140450
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_152517
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_165011
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_171020
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_171722
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_172423
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_173124
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_173828
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_174528
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_175228
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_175928
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_180630
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_183716
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_184417
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_185116
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_185815
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_190517
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_193610
+[2025-08-13 19:31:11] INFO - Lecture dossier: scrap_vinted_20250812_193951
+[2025-08-13 19:31:11] SUCCESS - Société traitée: vinted (Avis importés: 30882, Répertoires traités: 67)
+[2025-08-13 19:31:11] INFO - Connexion MongoDB fermée
+Lancement de l'insert dans mongodb et postgre
