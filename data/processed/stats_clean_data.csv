@@ -1,0 +1,7 @@
+﻿étape,lignes_restantes,perte_depuis_etape_prec,count,mean,std,min,25%,50%,75%,max
+Nettoyage initial,60869,0,,,,,,,,
+Gestion des valeurs manquantes,60869,0,,,,,,,,
+Suppression des doublons,59321,1548,,,,,,,,
+Ajout des métriques,59321,0,,,,,,,,
+Filtrage des outliers,58335,986,59321.0,260.50589167411204,349.5907287331347,6.0,53.0,135.0,339.0,8578.0
+Suppression des commentaires emojis-only,58328,7,,,,,,,,

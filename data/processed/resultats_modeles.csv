@@ -1,0 +1,7 @@
+Tâche,Modèle,Accuracy,F1_score_macro
+sentiment,LogisticRegression,0.8262,0.7537
+sentiment,LinearSVC,0.8506,0.7546
+sentiment,RandomForest,0.814,0.6445
+note,LogisticRegression,0.7073,0.4697
+note,LinearSVC,0.8043,0.4949
+note,RandomForest,0.7948,0.3594
