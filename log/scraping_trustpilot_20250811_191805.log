@@ -1,0 +1,6 @@
+2025-08-11 19:18:13,215 - INFO - Pas de fichier derniere_page.txt trouvé, démarrage à la page 1
+2025-08-11 19:18:13,215 - INFO - Scraping page 1 : https://fr.trustpilot.com/review/chronopost.fr?page=1
+2025-08-11 19:18:13,412 - INFO - Infos générales extraites : {'societe': 'chronopost.fr', 'nombre_avis': '664 avis', 'note_globale': 'N/A', 'date_extraction': '2025-08-11 19:18:13'}
+2025-08-11 19:18:13,414 - WARNING - Aucun avis trouvé sur la page.
+2025-08-11 19:18:13,414 - INFO - Aucun avis trouvé à la page 1, arrêt scraping.
+2025-08-11 19:18:13,414 - WARNING - Aucun avis récupéré pendant ce scraping.

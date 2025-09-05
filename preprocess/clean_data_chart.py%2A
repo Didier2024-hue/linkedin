@@ -1,0 +1,30 @@
+import json
+import matplotlib.pyplot as plt
+
+# === Paramètres ===
+REPORT_PATH = "/home/datascientest/cde/data/processed/report_quality_clean_avis_avec_sentiments.json"
+OUTPUT_PNG = "/home/datascientest/cde/data/processed/graph_nettoyage_etapes.png"
+
+# === Chargement du rapport JSON ===
+with open(REPORT_PATH, "r", encoding="utf-8") as f:
+    report = json.load(f)
+
+etapes = report["etapes_nettoyage"]
+lignes = report["lignes_restantes_par_etape"]
+
+# === Création du graphique ===
+plt.figure(figsize=(10, 6))
+plt.plot(etapes, lignes, marker="o", linestyle="-", color="royalblue")
+
+# Ajouts visuels
+plt.title("Évolution du nombre de lignes après chaque étape de nettoyage")
+plt.xlabel("Étapes de nettoyage")
+plt.ylabel("Nombre de lignes restantes")
+plt.grid(True, linestyle="--", alpha=0.5)
+plt.xticks(rotation=30, ha="right")
+plt.tight_layout()
+
+# === Sauvegarde en PNG ===
+plt.savefig(OUTPUT_PNG, dpi=300)
+print(f"✅ Graphique enregistré : {OUTPUT_PNG}")
+

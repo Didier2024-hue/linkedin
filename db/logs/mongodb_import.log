@@ -1,0 +1,52 @@
+2025-08-16 18:50:34,062 - INFO - 
+**********************************************************************
+*** 🚀 Connexion à MongoDB
+**********************************************************************
+
+2025-08-16 18:50:34,075 - INFO - ✅ Connexion réussie à la base : trustpilot
+2025-08-16 18:50:34,076 - INFO - 
+**********************************************************************
+*** 🔧 Création des index
+**********************************************************************
+
+2025-08-16 18:50:34,076 - INFO - 📌 Création des index...
+2025-08-16 18:50:34,078 - INFO - ✅ Index créés avec succès.
+2025-08-16 18:50:34,078 - INFO - 
+**********************************************************************
+*** 📈 Statistiques des collections
+**********************************************************************
+
+2025-08-16 18:50:34,086 - INFO - avis_trustpilot     :    66864 documents |   32.8 MB
+2025-08-16 18:50:34,091 - INFO - societe             :        4 documents |    0.0 MB
+2025-08-16 18:50:34,096 - INFO - 
+**********************************************************************
+*** 📊 Aperçu de la collection: societe
+📄 Documents: 4 | 💾 Taille: 1,242 octets
+**********************************************************************
+
+2025-08-16 18:50:34,098 - INFO - 🔎 Document 1: {'_id': ObjectId('689ccbdec38e5d4bedb39f62'), 'nom': 'temu.com', 'date_extraction': datetime.datetime(2025, 8, 13, 18, 47, 48), 'nombre_avis': 38847, 'nombre_commentaires': 0, 'note_1': 19689, 'note_2': 2419, 'note_3': 1890, 'note_4': 3163, 'note_5': 11686, 'note_globale': 2.3, 'pages_scrapees': '', 'secteur': 'Temu', 'total_avis': 38847, 'url': 'https://fr.trustpilot.com/review/temu.com?page=151'}
+2025-08-16 18:50:34,098 - INFO - 🔎 Document 2: {'_id': ObjectId('689ccbdec38e5d4bedb39f6a'), 'nom': 'tesla.com', 'date_extraction': datetime.datetime(2025, 8, 13, 13, 59, 3), 'nombre_avis': 1707, 'nombre_commentaires': 0, 'note_1': 1131, 'note_2': 93, 'note_3': 35, 'note_4': 61, 'note_5': 387, 'note_globale': 1.8, 'pages_scrapees': '', 'secteur': 'Tesla', 'total_avis': 1707, 'url': 'https://fr.trustpilot.com/review/tesla.com?page=1'}
+2025-08-16 18:50:34,098 - INFO - 🔎 Document 3: {'_id': ObjectId('689ccbdec38e5d4bedb39f6d'), 'nom': 'chronopost.fr', 'date_extraction': datetime.datetime(2025, 8, 12, 19, 40, 31), 'nombre_avis': 158327, 'nombre_commentaires': 0, 'note_1': 53161, 'note_2': 4049, 'note_3': 2888, 'note_4': 8505, 'note_5': 89724, 'note_globale': 3.6, 'pages_scrapees': '', 'secteur': 'Chronopost', 'total_avis': 158327, 'url': 'https://fr.trustpilot.com/review/chronopost.fr?page=1542'}
+2025-08-16 18:50:34,098 - INFO - 🔎 Document 4: {'_id': ObjectId('689ccbdfc38e5d4bedb39fb3'), 'nom': 'vinted.fr', 'date_extraction': datetime.datetime(2025, 8, 12, 19, 39, 12), 'nombre_avis': 41850, 'nombre_commentaires': 0, 'note_1': 17787, 'note_2': 1584, 'note_3': 1629, 'note_4': 2768, 'note_5': 18082, 'note_globale': 3.3, 'pages_scrapees': '', 'secteur': 'Vinted FR', 'total_avis': 41850, 'url': 'https://fr.trustpilot.com/review/vinted.fr?page=1601'}
+2025-08-16 18:50:35,099 - INFO - 
+======================================================================
+
+2025-08-16 18:50:36,108 - INFO - 
+**********************************************************************
+*** 📊 Aperçu de la collection: avis_trustpilot
+📄 Documents: 66,864 | 💾 Taille: 34,390,251 octets
+**********************************************************************
+
+2025-08-16 18:50:36,109 - INFO - 🔎 Document 1: {'_id': ObjectId('689ccbdee3cf055a687fe650'), 'page': 1, 'url_page': 'https://fr.trustpilot.com/review/temu.com?page=1', 'auteur': 'Lylyblue', 'date': '2025-08-13 14:26:04', 'commentaire': "Une commande et la dernière de toutes !! À fuir absolument ! Ils promettent un cadeau pour le téléchargement de leur application et cadeau dont vous ne verrez jamais la couleur. De plus lors de la toute première connexion, vous avez le droit de choisir dix cadeaux gratuits mais pour cela il faut passer une commande de 29€ minimum, chose faite mais au lieu des dix cadeaux seulement quatre me sont attribués ! Très en colère leur ai fait un mail ce à quoi ils m'ont répondu que les cadeaux étaient attribués en fonction d'un nombre d'étoiles. Tout leur est bon pour vendre jusqu'à mentir sur leurs démarches. Plus jamais je ne passerai commande chez eux. En plus produits de mauvaise qualité. Je préfère rester fidèle à Shein, qui eux, sont bien plus sérieux et leurs produits sont de bien meilleures qualité ! On devrait interdire des sites tels que Temu", 'note_commentaire': '1', 'date_chargement': datetime.datetime(2025, 8, 13, 17, 31, 10, 555000), 'id_societe': 'temu', 'societe_nom': 'temu.com'}
+2025-08-16 18:50:36,109 - INFO - 🔎 Document 2: {'_id': ObjectId('689ccbdee3cf055a687fe651'), 'page': 1, 'url_page': 'https://fr.trustpilot.com/review/temu.com?page=1', 'auteur': 'ALI KOUIRA', 'date': '2025-08-13 13:22:28', 'commentaire': "alors la très mauvaise  je commande un article sur temu ils m’envoie la mauvaise référence  ils me disent vous avez reçu un remboursement partiel  la faute leurs incombe  je leurs dit je demande pas un remboursement  renvoyer moi aujourd’hui la bonne RÉF  dès mécaniques guitares  la réf comme la photo si aujourd'hui ils ne me renvoi pas la bonne réf  je supprime le compte temu  et je vais acheter chez Amazon  et je clôture ce compte", 'note_commentaire': '1', 'date_chargement': datetime.datetime(2025, 8, 13, 17, 31, 10, 555000), 'id_societe': 'temu', 'societe_nom': 'temu.com'}
+2025-08-16 18:50:36,109 - INFO - 🔎 Document 3: {'_id': ObjectId('689ccbdee3cf055a687fe652'), 'page': 1, 'url_page': 'https://fr.trustpilot.com/review/temu.com?page=1', 'auteur': 'SCHLIENGER Schlienger Nicolas', 'date': '2025-08-13 11:17:07', 'commentaire': "Tout simplement que la qualité comme toujours n'est pas au rendez-vous, sur les photos les pièces font 3cm d'épaisseur, et quand tu commande c'est 1 cm, puis toutes les primes gagné, sont une grosse arnaque.. En bref n'achetez pas du chinois car vous n'avez aucun moyen de contrôler la marchandise. À bon entendeur\nN. S. ", 'note_commentaire': '1', 'date_chargement': datetime.datetime(2025, 8, 13, 17, 31, 10, 555000), 'id_societe': 'temu', 'societe_nom': 'temu.com'}
+2025-08-16 18:50:36,109 - INFO - 🔎 Document 4: {'_id': ObjectId('689ccbdee3cf055a687fe653'), 'page': 1, 'url_page': 'https://fr.trustpilot.com/review/temu.com?page=1', 'auteur': 'Consumer', 'date': '2025-08-13 10:43:41', 'commentaire': 'Madame, Monsieur,\n\nJe souhaite vous signaler que le site auprès duquel j’ai passé la commande n° PO-069-09409176310390893 s’avère être totalement non fiable.\n\nAprès un mois et demi d’attente, j’ai finalement reçu un article qui ne correspond en rien aux photos présentées sur le site. La qualité et les caractéristiques sont radicalement différentes de ce qui était annoncé.\n\nDe plus, le service client est inexistant et totalement incompétent, ne fournissant aucune réponse claire ni solution satisfaisante à ma réclamation.\n\nJe considère donc cette transaction comme une arnaque et je tiens à en avertir toute personne susceptible d’acheter sur ce site.\n\nJe vous demande de bien vouloir prendre les mesures nécessaires afin d’éviter que d’autres consommateurs ne soient victimes de cette pratique trompeuse.\n\nVeuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.', 'note_commentaire': '1', 'date_chargement': datetime.datetime(2025, 8, 13, 17, 31, 10, 555000), 'id_societe': 'temu', 'societe_nom': 'temu.com'}
+2025-08-16 18:50:36,110 - INFO - 🔎 Document 5: {'_id': ObjectId('689ccbdee3cf055a687fe654'), 'page': 1, 'url_page': 'https://fr.trustpilot.com/review/temu.com?page=1', 'auteur': 'Delphine', 'date': '2025-08-13 09:05:11', 'commentaire': 'Publicité mensongère. Il est écrit noir sur blanc, capture d\'écran à l\'appui : "Achetez pour 15 euros, recevez 3 articles à seulement 0,03 €". J\'ai donc pris mon temps pour sélectionner 3 articles, ai passé ma commande d\'un montant supérieur à 15 euros, à savoir 19,24€. Puis, je me suis aperçue que les 3 articles à 0,03 euros sélectionnés n\'apparaissaient absolument pas. J\'ai donc annulé ma commande dans la foulée puis contacté le service client de Temu en leur envoyant la photo de la publicité. Un ticket a été ouvert. Je devais recevoir une réponse le 9 août. 5 jours après, silence radio. \nPlus jamais !!!\nEt je vais m\'appliquer à en parler autour de moi ', 'note_commentaire': '1', 'date_chargement': datetime.datetime(2025, 8, 13, 17, 31, 10, 555000), 'id_societe': 'temu', 'societe_nom': 'temu.com'}
+2025-08-16 18:50:37,111 - INFO - 
+======================================================================
+
+2025-08-16 18:50:38,115 - INFO - 
+**********************************************************************
+*** 🔒 Connexion fermée proprement
+**********************************************************************
+
